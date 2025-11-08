@@ -46,7 +46,7 @@ class HomeScreen extends StatelessWidget {
                     SizedBox(width: Screen.wp(6)),
                     const Icon(Icons.search, color: AppColors.textSecondary),
                     // Center gap reserved for FAB
-                    SizedBox(width: Screen.wp(14)),
+                    SizedBox(width: Screen.wp(24)),
                     GestureDetector(
                       onTap: () => Get.toNamed(Routes.profile),
                       child: const Icon(Icons.person_outline, color: AppColors.textSecondary),
